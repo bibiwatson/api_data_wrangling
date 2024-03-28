@@ -36,12 +36,11 @@ Status Code 200
 | id_set | int | Obligatorio |  
 
 
-### Responses
-El api devuelve los datos con el siguiente formato
+##### Response
 ```
 {
 	success : boolean,
-	msg		: string,
+	msg	: string,
 	data	: array,
 	set_id	: int,
 	set_name: string
@@ -67,16 +66,15 @@ SELECT * FROM cards WHERE (name LIKE '%nami%' OR effect like '%nami%' OR trigger
 ```
 
 
-### Responses
-El api devuelve los datos con el siguiente formato
+##### Response
 ```
 {
 	success : boolean,
-	msg		: string,
+	msg	: string,
 	data	: array
 }
 ```
-En dado caso que exista un error solamente se omitirá "data"
+
 
 
 ### Error Responses

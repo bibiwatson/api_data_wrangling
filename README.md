@@ -3,7 +3,7 @@
 
 Api que muestra la lista de Expansiones y Cartas del juego de cartas de One Piece
 
-### Live Site
+### En Vivo
 [https://glitch.com/edit/#!/emmacolorado-katadatawrangling31](https://emmacolorado-katadatawrangling31.glitch.me/)
 
 # API Endpoints
